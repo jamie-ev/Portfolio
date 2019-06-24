@@ -373,13 +373,12 @@ footer p {
   }
   #project-box {
     padding: 40px 0;
-    grid-row-gap: 25px;
   }
   .contact-icon {
     width: 85px;
     height: 85px;
   }
-  .contact-icon p {
+  #contact a {
     line-height: 50px;
   }
   footer p {
