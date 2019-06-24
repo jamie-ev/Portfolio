@@ -31,13 +31,13 @@ body {
   color: white;
 }
 
-/* red decorative stripe */
+/* revisit
+
 .decoration {
   height: 6px;
   background-image: linear-gradient(-90deg, #601a1a, #f44);
 }
 
-/* nav red decorative stripe */
 #navbar .decoration {
   width: 120px;
   position: relative:
@@ -46,13 +46,14 @@ body {
   padding: 0;
 }
 
-/* welcome red decorative stripe */
 #welcome-section .decoration {
   width: 270px;
   margin: 0 auto;
   position: relative;
   bottom: 20px;
 }
+
+*/
 
 #welcome-section {
   height: 65vh;
