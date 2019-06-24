@@ -174,23 +174,29 @@ a {
 }
 
 /* style caption text */
-.caption {
-  color: #000;
-  font-family: Arial, sans-serif;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  background-color: #a9cdcc;
+.caption p, .caption p:visited {
+  background-color: #eff;
+  border-radius: 0 0 10px 10px;
+  color: #055;
   font-size: 18px;
   font-family: Consolas, monospace;
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+  width: 100%;
+  text-align: center;
   margin-bottom: 5px;
   padding: 2px 0;
+  text-decoration: none;
 }
 
-.caption:hover, .caption:active {
+.caption p:hover, .caption p:active {
   text-decoration: underline;
+}
+
+.caption p:visited {
+  color: #055;
+  text-decoration: none;
 }
 
 /* end of slideshow section */
