@@ -175,18 +175,18 @@ a {
 
 /* style caption text */
 .caption {
-  color: #fff;
+  color: #000;
   font-family: Arial, sans-serif;
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: rgba(0,0,0,0.7);
+  background-color: #a9cdcc;
   font-size: 18px;
   font-family: Consolas, monospace;
   margin-bottom: 5px;
-  padding: 6px 0;
+  padding: 2px 0;
 }
 
 .caption:hover, .caption:active {
@@ -194,14 +194,6 @@ a {
 }
 
 /* end of slideshow section */
-
-/* heading for project tiles */
-.center h3 {
-  margin-top: 50px;
-  text-align: center;
-  font-size: 28px;
-  color: #044;
-}
 
 #projects {
     background-color: #ddd;
