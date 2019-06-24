@@ -14,7 +14,7 @@ body {
   background-image: linear-gradient(#4ff, #199);
   width: 100%;
   margin-bottom: 0px;
-  z-index: 1;
+  z-index: 100;
 }
 
 .nav-link, .nav-link:visited {
@@ -32,23 +32,25 @@ body {
 
 /* red decorative stripe */
 .decoration {
-  height: 8px;
+  height: 6px;
   background-image: linear-gradient(-90deg, #601a1a, #f44);
 }
 
-/* red decorative stripe */
+/* nav red decorative stripe */
 #navbar + div {
   width: 100%;
   position: fixed;
   top: 115px;
   z-index: 2;
-  box-shadow: 0 0 15px 5px #222; /* box-shadow: 0 25px 40px 5px #222; */
+  box-shadow: 0 0 40px 5px #222; /* box-shadow: 0 25px 40px 5px #222; */
 }
 
-/* red decorative stripe */
+/* welcome red decorative stripe */
 #welcome-section .decoration {
-  width: 240px;
+  width: 250px;
   margin: 0 auto;
+  position: relative;
+  bottom: 8px;
 }
 
 #welcome-section {
