@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Description" content="Personal portfolio showcasing front end development projects.">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  <!-- main navigational bar -->
+  <nav id="navbar">
+    <p><a class="nav-link" href="#overview">About</a></p>
+    <p><a class="nav-link" href="#projects">Work</a></p>
+    <p><a class="nav-link" href="#contact">Contact</a></p>
+  </nav>
+  
+  <section id="welcome-section">
+    <div id="about">
+      <h1>Welcome! I'm Jamie</h1>
+      <p>a front end developer<p>
+    </div>
+  </section>
+  
+  <section id="overview">
+    <h2>I believe in crafting information</h2>
+    <p>to be beautiful, useful, and accessible</p>
+        <!-- container for slideshow -->
+        <div class="container-slideshow">
+          <!-- slide one -->
+          <div class="slide fade">
+            <img src="https://i.postimg.cc/VvXBvLGg/results.jpg" alt="results" style="width: 100%">
+          </div>
+          <!-- slide two -->
+          <div class="slide fade">
+            <img src="https://i.postimg.cc/DZjS7VPZ/inspiration.jpg" alt="inspiration" style="width: 100%">
+          </div>
+          <!-- slide three -->
+          <div class="slide fade">
+            <img src="https://i.postimg.cc/sgQqc5N0/drive.jpg" alt="drive" style="width: 100%">
+          </div>
+          <!-- slide four -->
+          <div class="slide fade">
+            <img src="https://i.postimg.cc/mD8mRrnH/creativity.jpg" alt="creativity" style="width: 100%">
+          </div>
+          <!-- slide five -->
+          <div class="slide fade">
+            <img src="https://i.postimg.cc/cCvBSBYp/vision.jpg" alt="vision" style="width: 100%">
+          </div>
+          <!-- slide six -->
+          <div class="slide fade">
+            <img src="https://i.postimg.cc/bw9CLLRg/wonder.jpg" alt="wonder" style="width: 100%">
+          </div>
+          <!-- slide seven -->
+          <div class="slide fade">
+            <img src="https://i.postimg.cc/NMHRCjct/dedication.jpg" a;t="dedication" style="width: 100%">
+          </div>
+          
+          <!-- next/previous -->
+          <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+          <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+        
+        <!-- bottom indicators -->
+        <div class="container-dots">
+          <span class="dot" onclick="goToSlide(0)"></span>
+          <span class="dot" onclick="goToSlide(1)"></span>
+          <span class="dot" onclick="goToSlide(2)"></span>
+          <span class="dot" onclick="goToSlide(3)"></span>
+          <span class="dot" onclick="goToSlide(4)"></span>
+          <span class="dot" onclick="goToSlide(5)"></span>
+          <span class="dot" onclick="goToSlide(6)"></span>
+        </div>
+  </section>
+
+  <section id="projects">
+    <h2>These are some of my projects</h2>
+    <p>click a thumbnail to view the live site</p>
+    <div id="project-box"> <!-- tiles highlighting select projects -->
+      
+    
+    <div class="project-tile" onmouseover="showDescription(0)" onmouseout="hideDescription(0)">
+      <a href="https://jamie-ev.github.io/Pomodoro_App/" target="_blank">
+        <div class="preview-box">
+          <h3>Pomodoro Timer App</h3>
+          <img alt="Pomodoro App Preview" src="https://i.postimg.cc/tJ2Yskrg/pomodoro.jpg">
+        </div>  
+      </a>
+      <a href="https://github.com/jamie-ev/Pomodoro_App" target="_blank"><p>&lt;view the code&gt;</p></a>
+    </div>
+
+    <div class="project-tile" onmouseover="showDescription(1)" onmouseout="hideDescription(1)">
+      <a href="https://jamie-ev.github.io/JavaScript_Calculator/" target="_blank">
+        <div class="preview-box">
+           <h3>JavaScript Calculator</h3>
+           <img alt="Calculator Preview" src="https://i.postimg.cc/rFhN3X1K/calculator.jpg">
+        </div>  
+      </a>
+      <a href="https://github.com/jamie-ev/JavaScript_Calculator" target="_blank"><p>&lt;view the code&gt;</p></a>
+    </div>
+  
+    
+    <div class="project-tile" onmouseover="showDescription(2)" onmouseout="hideDescription(2)">
+      <a href="https://jamie-ev.github.io/Quote_Generator/" target="_blank">
+        <div class="preview-box">
+          <h3>Random Quote Generator</h3>
+          <img alt="Quote Generator Preview" src="https://i.postimg.cc/FKRGzCDY/quote2.jpg">
+        </div>
+      </a>
+      <a href="https://github.com/jamie-ev/Quote_Generator" target="_blank"><p>&lt;view the code&gt;</p></a>
+    </div>
+  
+    
+    <div class="project-tile" onmouseover="showDescription(3)" onmouseout="hideDescription(3)">
+      <a href="https://jamie-ev.github.io/Markdown_Previewer/" target="_blank">
+        <div class="preview-box">
+          <h3>Markdown Previewer</h3>
+          <img alt="Markdown Preview" src="https://i.postimg.cc/sfJ0KL1N/markdown.jpg">
+        </div>
+      </a>
+      <a href="https://github.com/jamie-ev/Markdown_Previewer" target="_blank"><p>&lt;view the code&gt;</p></a>
+    </div>
+
+    
+    <div class="project-tile" onmouseover="showDescription(4)" onmouseout="hideDescription(4)">
+      <a href="https://jamie-ev.github.io/Product_Page/" target="_blank">
+        <div class="preview-box">
+          <h3>Product Landing Page</h3>
+          <img alt="Product Page Preview" src="https://i.postimg.cc/FHg3vbv7/succulents.jpg">
+        </div>
+      </a>
+      <a href="https://github.com/jamie-ev/Product_Page" target="_blank"><p>&lt;view the code&gt;</p></a>
+    </div>
+  
+    
+    <div class="project-tile" onmouseover="showDescription(5)" onmouseout="hideDescription(5)">
+      <a href="https://jamie-ev.github.io/Technical_Documentation/" target="_blank">
+        <div class="preview-box">
+          <h3>Technical Documentation</h3>
+          <img alt="Technical Documentation Preview" src="https://i.postimg.cc/50JWQFkY/asa.jpg">
+        </div>
+      </a>
+      <a href="https://github.com/jamie-ev/Technical_Documentation" target="_blank"><p>&lt;view the code&gt;</p></a> 
+    </div>
+
+    </div>
+  </section>
+  
+  <!-- decorative gradient -->
+  <div class="gradient"></div>
+
+  <!-- contact details -->
+  <section id="contact">
+    <h2>Let's work together</h2>
+    <p>how do you prefer your tea?</p>
+    <div id="contact-box">
+      <a href="https://github.com/jamie-ev" target="_blank"><div class="contact-icon"><p>GitHub</p></div></a>
+      <a href="https://www.linkedin.com/in/jamie-ev" target="_blank"><div class="contact-icon"><p>LinkedIn</p></div></a>
+      <a id="profile-link" href="https://www.freecodecamp.org/jamie-ev" target="_blank"><div class="contact-icon"><p>FCC</p></div></a>
+    </div>  
+  </section>
+ 
+  <footer>
+    <p>&#169; 2019 Jamie Ev.</p>
+    <p id="small">This sample portfolio excludes personal contact information.</p>
+  </footer>
+
+  <script type="text/javascript" src="index.js"></script>
+
+</body>  
+</html>
