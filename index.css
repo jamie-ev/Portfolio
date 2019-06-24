@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:bold|Roboto:thin,light,bold,black|');
 
 body {
-	margin: 0;
+  margin: 0;
 }
 
 /* main navigation bar (at top) */
@@ -82,12 +82,16 @@ h1 {
   color: white;
 }
 
-p {
+p, li {
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 200;
   font-size: 24px;
   text-align: center;
   letter-spacing: 1.5px;
+}
+
+li {
+  font-size: 20px;
 }
 
 /* overview section (with slideshow) */
@@ -240,6 +244,11 @@ a {
   width: 100vw;
   background-color: rgba(255,255,255,0.7)
   padding: 40px;
+}
+
+.li-flex {
+  display: flex;
+  justify-content: center;
 }
 
 #projects {
