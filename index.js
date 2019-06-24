@@ -1,3 +1,4 @@
+// slideshow 1
 let slideIndex = 0;
 showSlides(slideIndex);
 
@@ -31,6 +32,23 @@ function goToSlide(n) {
   slideIndex = n;
   showSlides(slideIndex);
 }
+
+// slideshow 2
+let slideIndex2 = 0;
+showSlides2();
+
+function showSlides2() {
+  let slides = document.getElementsByClassName('slide2');
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex2++;
+  if (slideIndex2 > slides.length) {
+    slideIndex2 = 1
+  }
+  slides[slideIndex2-1].style.display = "block";
+  setTimeout(showSlides2, 3500); // Change image every 3.5 seconds
+} 
 
 // function to hover description over project tiles
 function showDescription(n) {
