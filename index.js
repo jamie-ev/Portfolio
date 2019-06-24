@@ -47,7 +47,7 @@ function showSlides2() {
     slideIndex2 = 1
   }
   slides[slideIndex2-1].style.display = "block";
-  setTimeout(showSlides2, 3500); // Change image every 3.5 seconds
+  setTimeout(showSlides2, 4500); // Change image every 4.5 seconds
 } 
 
 // function to hover description over project tiles
