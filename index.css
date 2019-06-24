@@ -186,7 +186,7 @@ a {
   font-size: 18px;
   font-family: Consolas, monospace;
   margin-bottom: 5px;
-  padding: 9px 0;
+  padding: 6px 0;
 }
 
 .caption:hover, .caption:active {
@@ -197,6 +197,7 @@ a {
 
 /* heading for project tiles */
 .center h3 {
+  margin-top: 50px;
   text-align: center;
   font-size: 28px;
   color: #044;
