@@ -91,7 +91,7 @@ a {
 }
 
 /* Hide slides (images + captions) by default */
-.slide {
+.slide, .slide2 {
   display: none;
 }
 
@@ -171,6 +171,21 @@ a {
   to {
     opacity: 1
   }
+}
+
+/* style caption text */
+.caption {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0,0,0,0.8);
+  font-size: 18px;
+  font-family: Consolas, monospace;
+  height: 50px;
+  line-height: 50px;
 }
 
 /* end of slideshow section */
