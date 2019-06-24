@@ -52,6 +52,7 @@
           <!-- slide six -->
           <div class="slide fade">
             <img src="https://i.postimg.cc/bw9CLLRg/wonder.jpg" alt="wonder" style="width: 100%">
+            <a class="caption">Hiking View</a>
           </div>
           <!-- slide seven -->
           <div class="slide fade">
@@ -78,9 +79,35 @@
   <section id="projects">
     <h2>These are some of my projects</h2>
     <p>click a thumbnail to view the live site</p>
+    
+    <!-- container for slideshow -->
+    <div class="container-slideshow">
+          <!-- slide one -->
+          <div class="slide fade">
+            <img src="https://i.postimg.cc/D47xxh4D/pomodoro.jpg" alt="Pomodoro Preview" style="width: 100%">
+            <a href="https://github.com/jamie-ev/Pomodoro_App" target="_blank"><p class="caption">&lt;view the code&gt;</p></a>
+          </div>
+          <!-- slide two -->
+          <div class="slide fade">
+            <img src="https://i.postimg.cc/62rHVqqn/quote.jpg" alt="Quote Preview" style="width: 100%">
+            <a href="https://github.com/jamie-ev/Quote_Generator" target="_blank"><p>&lt;view the code&gt;</p></a>
+          </div>
+          <!-- slide three -->
+          <div class="slide fade">
+            <img src="https://i.postimg.cc/vgFq6fYG/markdown.jpg" alt="Markdown Preview" style="width: 100%">
+            <a href="https://github.com/jamie-ev/Markdown_Previewer" target="_blank"><p>&lt;view the code&gt;</p></a>
+          </div>
+    </div>
+    
+    <!-- bottom indicators -->
+    <div class="container-dots">
+          <span class="dot" onclick="goToSlide2(0)"></span>
+          <span class="dot" onclick="goToSlide2(1)"></span>
+          <span class="dot" onclick="goToSlide2(2)"></span>
+    </div>
+    
     <div id="project-box"> <!-- tiles highlighting select projects -->
       
-    
     <div class="project-tile" onmouseover="showDescription(0)" onmouseout="hideDescription(0)">
       <a href="https://jamie-ev.github.io/Pomodoro_App/" target="_blank">
         <div class="preview-box">
