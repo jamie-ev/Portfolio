@@ -39,17 +39,19 @@ body {
 
 /* nav red decorative stripe */
 #navbar .decoration {
-  width: 100px;
+  width: 120px;
   position: relative:
-  bottom: 15px;
+  bottom: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 /* welcome red decorative stripe */
 #welcome-section .decoration {
-  width: 250px;
+  width: 270px;
   margin: 0 auto;
   position: relative;
-  bottom: 15px;
+  bottom: 20px;
 }
 
 #welcome-section {
