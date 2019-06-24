@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: flex-end;
   background-image: linear-gradient(#4ff, #199);
+  box-shadow: 0 25px 40px 5px #222;
   width: 100%;
   margin-bottom: 0px;
   z-index: 100;
@@ -37,12 +38,10 @@ body {
 }
 
 /* nav red decorative stripe */
-#navbar + div {
-  width: 100%;
-  position: fixed;
-  top: 115px;
-  z-index: 2;
-  box-shadow: 0 0 40px 5px #222; /* box-shadow: 0 25px 40px 5px #222; */
+#navbar .decoration {
+  width: 100px;
+  position: relative:
+  bottom: 15px;
 }
 
 /* welcome red decorative stripe */
@@ -50,7 +49,7 @@ body {
   width: 250px;
   margin: 0 auto;
   position: relative;
-  bottom: 8px;
+  bottom: 15px;
 }
 
 #welcome-section {
