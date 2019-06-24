@@ -31,13 +31,21 @@ body {
   color: white;
 }
 
+/* red decorative stripe */
 .decoration {
   height: 8px;
-  background-image: linear-gradient(-90deg, #601a1a, #f44)
+  background-image: linear-gradient(-90deg, #601a1a, #f44);
+}
+
+#navbar + div {
+  width: 100%;
+  position: fixed;
+  top: 115px;
 }
 
 #welcome-section .decoration {
-  width: 150px;
+  width: 240px;
+  margin: 0 auto;
 }
 
 #welcome-section {
