@@ -178,6 +178,7 @@ a {
   color: #fff;
   font-family: Arial, sans-serif;
   position: absolute;
+  left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -185,7 +186,7 @@ a {
   font-size: 18px;
   font-family: Consolas, monospace;
   margin-bottom: 5px;
-  padding: 30px 0;
+  padding: 15px 0;
 }
 
 /* end of slideshow section */
