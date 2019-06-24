@@ -88,12 +88,12 @@ a {
   position: relative;
   margin: 0 auto;
   padding-top: 40px;
-  box-shadow: 3px 4px 15px 3px #888, 3px 4px 5px 0px rgba(0,0,0,0.6);
 }
 
 /* Hide slides (images + captions) by default */
 .slide, .slide2 {
   display: none;
+  box-shadow: 3px 4px 15px 3px #888, 3px 4px 5px 0px rgba(0,0,0,0.6);
 }
 
 .slide2 {
@@ -181,6 +181,7 @@ a {
 /* style caption text */
 .caption p, .caption p:visited {
   background-color: #eff;
+  box-shadow: 3px 4px 15px 3px #888, 3px 4px 5px 0px rgba(0,0,0,0.6);
   border-radius: 0 0 10px 10px;
   color: #055;
   font-size: 18px;
