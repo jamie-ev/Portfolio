@@ -184,8 +184,8 @@ a {
   background-color: rgba(0,0,0,0.8);
   font-size: 18px;
   font-family: Consolas, monospace;
-  height: 50px;
-  line-height: 50px;
+  margin-bottom: 5px;
+  padding: 30px 0;
 }
 
 /* end of slideshow section */
@@ -240,7 +240,7 @@ a {
     text-decoration: none;
   }
   
-  img {
+  .project-tile img {
     width: 99%;
     border: 1px solid #999;
   }
