@@ -261,12 +261,13 @@ a {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  box-sizing: border-box;
 }
 
 .philosophy-white {
   background: url('media/white_pattern.jpg');
   background-repeat: repeat;
-  padding: 30px 0;
+  padding: 50px 20px;
 }
 
 .philosophy-flex div {
@@ -440,6 +441,12 @@ footer p {
       display: grid;
       grid-template-columns: 1fr;
       justify-items: center;
+    }
+    .philosophy-flex {
+      flex-direction: column;
+    }
+    .philosophy-flex div {
+      width: 80vw;
     }
   }
 
