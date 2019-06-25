@@ -64,7 +64,7 @@ body {
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-#about p {
+#about p, #philosophy p:last-child {
   color: #00cccc;
   font-weight: 400;
   font-size: 26px;
@@ -84,7 +84,7 @@ h1 {
 
 p, li {
   font-family: 'Roboto', Arial, sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 24px;
   text-align: center;
   letter-spacing: 1.5px;
@@ -92,6 +92,9 @@ p, li {
 
 li {
   font-size: 20px;
+  line-height: 40px;
+  text-align: left;
+  font-weight: 200;
 }
 
 /* overview section (with slideshow) */
@@ -241,15 +244,22 @@ a {
 
 /* philosophy section */
 #philosophy {
-  width: 100vw;
-  background-color: rgba(255,255,255,0.7)
-  padding: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgba(255,255,255,0.7);
+  padding: 100px 50px 100px 50px;
 }
 
 .philosophy-flex {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
 }
+
+.philosophy-flex div {
+    width: 40vw;
+    padding: 40px 0;
+  }
 
 #projects {
     background-color: #ddd;
