@@ -1,5 +1,5 @@
 /* google fonts */
-@import url('https://fonts.googleapis.com/css?family=Karla:bold|Roboto:thin,light,bold,black|');
+@import url('https://fonts.googleapis.com/css?family=Karla:regular,bold|Roboto:thin,light,bold,black|');
 
 body {
   margin: 0;
@@ -65,9 +65,11 @@ body {
 }
 
 #about p, #philosophy p:last-child {
-  color: #00cccc;
+  color: #aff;
   font-weight: 400;
   font-size: 26px;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 h1, h2, h3 {
@@ -91,10 +93,13 @@ p, li {
 }
 
 li {
+  font-family: 'Karla', Verdana, sans-serif;
+  font-weight: 200;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 50px;
   text-align: left;
   font-weight: 200;
+  padding-left: 10px;
 }
 
 /* overview section (with slideshow) */
@@ -180,6 +185,7 @@ a {
   display: inline-block;
   margin: 0 3px;
   transition: background-color 0.6s ease;
+  margin-bottom: 100px;
 }
 
 .active, .dot:hover {
@@ -246,8 +252,9 @@ a {
 #philosophy {
   width: 100%;
   box-sizing: border-box;
-  background-color: rgba(255,255,255,0.7);
-  padding: 100px 50px 100px 50px;
+  background-color: rgba(255,255,255,0.5);
+  padding: 50px 80px;
+  box-shadow: 0 25px 40px 5px #222;
 }
 
 .philosophy-flex {
@@ -256,9 +263,18 @@ a {
   align-items: flex-start;
 }
 
+.philosophy-white {
+  background: url('media/white_pattern.jpg');
+  background-repeat: repeat;
+  padding: 40px 0;
+}
+
 .philosophy-flex div {
     width: 40vw;
-    padding: 40px 0;
+  }
+
+  #philosophy p:last-child {
+    color: #00adad;
   }
 
 #projects {
