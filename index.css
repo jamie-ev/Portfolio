@@ -31,30 +31,6 @@ body {
   color: white;
 }
 
-/* revisit
-
-.decoration {
-  height: 6px;
-  background-image: linear-gradient(-90deg, #601a1a, #f44);
-}
-
-#navbar .decoration {
-  width: 120px;
-  position: relative:
-  bottom: 30px;
-  margin: 0;
-  padding: 0;
-}
-
-#welcome-section .decoration {
-  width: 270px;
-  margin: 0 auto;
-  position: relative;
-  bottom: 20px;
-}
-
-*/
-
 #welcome-section {
   height: 65vh;
   background-color: #444;
@@ -286,6 +262,7 @@ a {
     color: #00adad;
   }
 
+/* tech stack section */
 #stack {
   width: 100%;
   box-sizing: border-box;
@@ -296,12 +273,11 @@ a {
     width: 400px;
   }
 
-
-
 #stack ul {
   list-style: none;
 }
 
+/* font awesome icons */
 i.fas {
   color: #055;
 }
@@ -310,6 +286,7 @@ i.fas {
   font-size: 12px;
 }
 
+/* projects section */
 #projects {
     background-color: #ddd;
     padding: 5px 15px 0px 15px;
@@ -406,7 +383,8 @@ i.fas {
     background-image: linear-gradient(#ddd, #9cc);
     height: 150px;
   }
-  
+
+/* contact section */
 #contact {
   padding: 70px;
   background: url("https://i.postimg.cc/vTFQc4Rc/laptop.jpg");
@@ -450,6 +428,7 @@ i.fas {
   cursor: pointer;
 }
 
+/* footer section */
 footer {
   background-color: #333;
   height: 100px;
@@ -474,10 +453,10 @@ footer p {
       grid-template-columns: 1fr;
       justify-items: center;
     }
-    .philosophy-flex {
+    .li-flex {
       flex-direction: column;
     }
-    .philosophy-flex div {
+    .li-flex div {
       width: 80vw;
     }
   }
