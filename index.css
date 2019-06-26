@@ -471,6 +471,9 @@ footer p {
   h2 {
     font-size: 40px;
   }
+  #stack .li-flex, #philosophy .li-flex {
+    align-items: center;
+  }
   #contact-box {
     width: 100%;
   }
@@ -481,14 +484,24 @@ footer p {
   p, li {
     font-size: 17px;
   }
+  #philosophy p:last-child {
+    font-size: 20px;
+  }
   .nav-link {
     padding: 25px;
   }
   h2 {
     font-size: 30px;
   }
-  #stack .li-flex {
-    align-items: center;
+  #philosophy {
+    padding: 50px;
+  }
+  #philosophy .li-flex div {
+    width: 300px;
+  }
+  .philosophy-white {
+    padding: 50px 0px;
+    box-sizing: border-box;
   }
   #stack .li-flex div {
     width: 300px;
