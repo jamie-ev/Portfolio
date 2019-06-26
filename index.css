@@ -344,7 +344,6 @@ i.fas {
   
   #projects h2 {
     padding-top: 50px;
-    font-size: 45px;
     color: #055;
   }
   
@@ -479,7 +478,7 @@ footer p {
 
 /* adjustments for smallest screens */
 @media (max-width: 600px) {
-  p {
+  p, li {
     font-size: 17px;
   }
   .nav-link {
@@ -488,8 +487,14 @@ footer p {
   h2 {
     font-size: 30px;
   }
+  #stack .li-flex {
+    align-items: center;
+  }
+  #stack .li-flex div {
+    width: 300px;
+  }
   #projects {
-    padding: 120px 0 15px 0;
+    padding: 20px 15px 15px 15px;
   }
   #project-box {
     padding: 40px 0;
