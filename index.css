@@ -257,7 +257,7 @@ a {
   box-shadow: 0 25px 40px 5px #222;
 }
 
-.philosophy-flex {
+.li-flex {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -270,13 +270,17 @@ a {
   padding: 50px 20px;
 }
 
-.philosophy-flex div {
+.li-flex div {
     width: 40vw;
   }
 
   #philosophy p:last-child {
     color: #00adad;
   }
+
+#stack ul {
+  list-style: none;
+}
 
 #projects {
     background-color: #ddd;
