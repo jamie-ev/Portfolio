@@ -4,20 +4,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142805624-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-142805624-1');
+  </script>  
   <meta name="Description" content="Personal portfolio showcasing front end development projects.">
   <title>Personal Portfolio</title>
   <link rel="stylesheet" type="text/css" href="index.css">
   <!-- font awesome icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142805624-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-142805624-1');
-</script>  
 </head>
 
 <body>
@@ -75,8 +75,8 @@
           </div>
           
           <!-- next/previous -->
-          <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-          <a class="next" onclick="changeSlide(1)">&#10095;</a>
+          <a class="prev" onclick="changeSlide(-1)" tabindex="0">&#10094;</a>
+          <a class="next" onclick="changeSlide(1)" tabindex="0">&#10095;</a>
         </div>
         
         <!-- bottom indicators -->
