@@ -27,6 +27,24 @@ function changeSlide(n) {
   showSlides(slideIndex);
 }
 
+// add keyboard control for prev button
+document.getElementByClass("prev").addEventListener("keyup", function(event) {
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    event.preventDefault();  // cancel the default action, if needed 
+    changeSlide(-1);  // trigger the changeSlide function
+  }
+}); 
+
+// add keyboard control for next button
+document.getElementByClass("next").addEventListener("keyup", function(event) {
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    event.preventDefault();  // cancel the default action, if needed 
+    changeSlide(1);  // trigger the changeSlide function
+  }
+}); 
+
 // function for manual controls from bottom indicator dots
 function goToSlide(n) {
   slideIndex = n;
