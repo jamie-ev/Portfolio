@@ -28,7 +28,7 @@ function changeSlide(n) {
 }
 
 // add keyboard control for prev button
-document.getElementByClass("prev").addEventListener("keyup", function(event) {
+document.getElementsByClassName("prev")[0].addEventListener("keyup", function(event) {
   // Number 13 is the "Enter" key on the keyboard
   if (event.keyCode === 13) {
     event.preventDefault();  // cancel the default action, if needed 
@@ -37,7 +37,7 @@ document.getElementByClass("prev").addEventListener("keyup", function(event) {
 }); 
 
 // add keyboard control for next button
-document.getElementByClass("next").addEventListener("keyup", function(event) {
+document.getElementsByClassName("next")[0].addEventListener("keyup", function(event) {
   // Number 13 is the "Enter" key on the keyboard
   if (event.keyCode === 13) {
     event.preventDefault();  // cancel the default action, if needed 
