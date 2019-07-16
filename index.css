@@ -214,6 +214,9 @@ a {
 }
 
 .caption p:hover, .caption p:active {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
   text-decoration: underline;
 }
 
