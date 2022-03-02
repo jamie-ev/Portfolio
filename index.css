@@ -28,7 +28,7 @@ body {
 }
 
 .nav-link:active, .nav-link:hover {
-  color: white;
+  color: #fff;
 }
 
 #welcome-section {
@@ -57,7 +57,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 80px;
-  color: white;
+  color: #fff;
 }
 
 p, li {
@@ -169,10 +169,11 @@ a {
 }
 
 /* fading animation */
-
 .fade {
   -webkit-animation-name: fade;
+  animation-name: fade;
   -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
   animation: fade 1.5s;
 }
 
@@ -214,9 +215,9 @@ a {
 }
 
 .caption p:hover, .caption p:active {
-  background-color: #333;
+  background-color: #444;
   color: #fff;
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: underline;
 }
 
@@ -280,13 +281,9 @@ a {
   list-style: none;
 }
 
-/* font awesome icons */
-i.fas {
+.icon {
   color: #055;
-}
-
-.fa-plus {
-  font-size: 12px;
+  font-weight: 600;
 }
 
 /* projects section */
@@ -329,9 +326,9 @@ i.fas {
   }
 
   .project-tile p:active, .project-tile p:hover {
-    background-color: #333;
+    background-color: #444;
     color: #fff;
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: underline;
   }
 
@@ -355,7 +352,7 @@ i.fas {
     letter-spacing: 1px;
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: 400;
-    color: white;
+    color: #fff;
     position: absolute;
     top: -20px;
     left: 0px;
@@ -411,7 +408,7 @@ i.fas {
 }
 
 #contact a {
-  color: white;
+  color: #fff;
   font-weight: 400;
   text-decoration: none;
   line-height: 120px;
@@ -422,7 +419,7 @@ i.fas {
 }
 
 #contact a:visited {
-  color: white;
+  color: #fff;
 }
 
 .contact-icon:hover, .contact-icon:active {
@@ -438,7 +435,7 @@ footer {
 }
 
 footer p {
-  color: white;
+  color: #fff;
   font-size: 23px;
   line-height: 20px;
   font-weight: 400;
@@ -488,7 +485,7 @@ footer p {
     font-size: 17px;
   }
   li {
-    font-weight: bold;
+    font-weight: 600;
   }
   #philosophy p:last-child {
     font-size: 20px;
