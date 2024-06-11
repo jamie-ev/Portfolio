@@ -10,4 +10,4 @@ I commented throughout the files, but let me know if you have any questions. To 
 
 ## Author
 
-Jamie L. - [LinkedIn](https://www.linkedin.com/in/jamie-ev)
+Jamie L. (@jamie-ev) - [LinkedIn](https://www.linkedin.com/in/jamie-ev)

@@ -51,23 +51,28 @@ function goToSlide(n) {
   showSlides(slideIndex);
 }
 
-/* slideshow 2 */
-let slideIndex2 = 0;
-showSlides2();
-
 // show/hide slides
-function showSlides2() {
-  let slides = document.getElementsByClassName('slide2');
+function showProjectSlides(classname, indexer) {
+  let slides = document.getElementsByClassName(classname);
+  console.log(slides);
   for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  slideIndex2++;
-  if (slideIndex2 > slides.length) {
-    slideIndex2 = 1
+  indexer++;
+  if (indexer > slides.length) {
+    indexer = 1
   }
-  slides[slideIndex2-1].style.display = "block";
-  setTimeout(showSlides2, 4500); // Change image every 4.5 seconds
-} 
+  slides[indexer-1].style.display = "block";
+  setTimeout(() => showProjectSlides(classname, indexer), 4500); // Change image every 4.5 seconds
+}
+
+/* featured project slideshow */
+let slideIndexFeatured = 0;
+showProjectSlides('slide-two', slideIndexFeatured);
+
+/* projects slideshow */
+let slideIndexProjects = 0;
+showProjectSlides('slide-three', slideIndexProjects);
 
 /* project tiles section */
 

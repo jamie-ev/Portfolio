@@ -103,15 +103,15 @@ a {
 }
 
 /* Hide slides (images + captions) by default */
-.slide, .slide2 {
+.slide, .slide-two {
   display: none;
 }
 
-.slide img, .slide2 img {
+.slide img, .slide-two img, .slide-three img {
   box-shadow: 3px 4px 15px 3px #888, 3px 4px 5px 0px rgba(0,0,0,0.6);
 }
 
-.slide2 img {
+.slide-two img, .slide-three img {
   border-radius: 10px 10px 0 0;
 }
 
