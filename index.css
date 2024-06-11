@@ -286,6 +286,10 @@ a {
   font-weight: 600;
 }
 
+.spacing {
+  margin-top: 200px;
+}
+
 /* projects section */
 #projects {
     background-color: #ddd;
