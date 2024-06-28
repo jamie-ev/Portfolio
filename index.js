@@ -52,9 +52,8 @@ function goToSlide(n) {
 }
 
 // show/hide slides
-function showProjectSlides(classname, indexer) {
+function showProjectSlides(classname, indexer, timeDelay) {
   let slides = document.getElementsByClassName(classname);
-  console.log(slides);
   for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
@@ -63,16 +62,20 @@ function showProjectSlides(classname, indexer) {
     indexer = 1
   }
   slides[indexer-1].style.display = "block";
-  setTimeout(() => showProjectSlides(classname, indexer), 4500); // Change image every 4.5 seconds
+  setTimeout(() => showProjectSlides(classname, indexer, timeDelay), timeDelay); // Change image every x milliseconds
 }
 
 /* featured project slideshow */
 let slideIndexFeatured = 0;
-showProjectSlides('slide-two', slideIndexFeatured);
+showProjectSlides('slide-two', slideIndexFeatured, 4500);
+
+/* professional highlights projects slideshow */
+let slideIndexProfessional = 0;
+showProjectSlides('slide-three', slideIndexProfessional, 7500);
 
 /* projects slideshow */
 let slideIndexProjects = 0;
-showProjectSlides('slide-three', slideIndexProjects);
+showProjectSlides('slide-four', slideIndexProjects, 4500);
 
 /* project tiles section */
 
