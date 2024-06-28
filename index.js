@@ -65,17 +65,21 @@ function showProjectSlides(classname, indexer, timeDelay) {
   setTimeout(() => showProjectSlides(classname, indexer, timeDelay), timeDelay); // Change image every x milliseconds
 }
 
+/* professional highlights #1 slideshow */
+let slideIndexHighmark = 0;
+showProjectSlides('slide-highmark', slideIndexHighmark, 7000);
+
+/* professional highlights #2 slideshow */
+let slideIndexLupl = 0;
+showProjectSlides('slide-lupl', slideIndexLupl, 7000);
+
 /* featured project slideshow */
 let slideIndexFeatured = 0;
-showProjectSlides('slide-two', slideIndexFeatured, 4500);
-
-/* professional highlights projects slideshow */
-let slideIndexProfessional = 0;
-showProjectSlides('slide-three', slideIndexProfessional, 7500);
+showProjectSlides('slide-demo', slideIndexFeatured, 4500);
 
 /* projects slideshow */
 let slideIndexProjects = 0;
-showProjectSlides('slide-four', slideIndexProjects, 4500);
+showProjectSlides('slide-projects', slideIndexProjects, 4500);
 
 /* project tiles section */
 
